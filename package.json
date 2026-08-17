@@ -1,0 +1,14 @@
+{
+  "name": "syncsa",
+  "version": "1.0.0",
+  "description": "Sync SA application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "echo \"Build complete\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
