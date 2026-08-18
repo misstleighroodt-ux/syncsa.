@@ -1,0 +1,16 @@
+{
+  "name": "syncsa",
+  "version": "1.0.0",
+  "description": "A calm, focused mobile experience for your day.",
+  "private": true,
+  "scripts": {
+    "dev": "serve -l 3000 .",
+    "start": "serve -l 3000 .",
+    "build": "echo \"No build step required for static site\" && exit 0",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "license": "MIT"
+}
