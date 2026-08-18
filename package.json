@@ -1,16 +1,39 @@
 {
   "name": "syncsa",
   "version": "1.0.0",
-  "description": "A calm, focused mobile experience for your day.",
+  "description": "A calm, focused daily assistant for your day.",
   "private": true,
   "scripts": {
-    "dev": "serve -l 3000 .",
-    "start": "serve -l 3000 .",
-    "build": "echo \"No build step required for static site\" && exit 0",
-    "test": "echo \"No tests specified\" && exit 0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "better-auth": "latest",
+    "pg": "^8.13.1",
+    "drizzle-orm": "^0.45.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.469.0",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-switch": "^1.1.2",
+    "geist": "^1.3.1"
   },
   "devDependencies": {
-    "serve": "^14.2.4"
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/pg": "^8.11.10",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.4.49"
   },
   "license": "MIT"
 }
